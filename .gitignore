@@ -222,3 +222,5 @@ $RECYCLE.BIN/
 # Default ignored files
 /shelf/
 /workspace.xml
+pyvenv.cfg
+/.folder/
