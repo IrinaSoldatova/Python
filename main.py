@@ -1,3 +1,3 @@
-a = 12.234
-import math
-print(math.ceil(a))
+import random
+
+print(random.randint(-50, 50))
