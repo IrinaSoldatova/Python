@@ -1,3 +1,3 @@
-import random
-
-print(random.randint(-50, 50))
+# import random
+#
+# print(random.randint(-50, 50))
