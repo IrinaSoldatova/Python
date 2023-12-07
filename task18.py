@@ -8,22 +8,24 @@
 # 6
 # -> 5
 
+
  #1 вариант
 
-list_1 = [1, 2, 3, 4, 5, 7]
-k = 4
+list_1 = [12, 23, 34, 45, 56]
+k = 25
+m = abs(k - list_1[0])
+number = list_1[0]
+
 for i in list_1:
-    res = min(list_1, key=lambda i: abs(i-k))
-print(res)
+    if m > abs(i - k):
+        m = abs(i - k)
+        number = i
+print(number)
 
 #2 вариант
 
-list_1 = [1, 2, 3, 4, 5, 7]
-k = 4
-m = abs(k - list_1[0])  # модуль числа
-number = list_1[0]
-for i in range(1, len(list_1)):
-    if m > abs(list_1[i] - k):
-        m = abs(list_1[i] - k)
-        number = list_1[i]
-print(number)
+list_1 = [12, 23, 34, 45, 56]
+k = 25
+for i in list_1:
+    res = min(list_1, key=lambda i: abs(i-k))
+print(res)
