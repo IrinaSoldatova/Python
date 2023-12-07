@@ -18,3 +18,14 @@ else:
         f *= i
         i += 1
 print(f)
+#2 решение
+n = int(input('Введите число: '))
+factorial_ = 1
+for i in range(1, n + 1):
+    factorial_ *= i
+print(factorial_)
+ #3
+
+from math import factorial
+n = int(input('Введите число: '))
+print(factorial(n))

@@ -27,8 +27,7 @@ for i in range(lenlst):
         cnt += 1
 print(lst)
 print(cnt)
-count_ = lst.count(k)
-print(f'Элемент {k} повторяется {count_} раза')
+
 
 #3 вариант
 
