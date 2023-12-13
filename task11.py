@@ -5,11 +5,11 @@
 # является числом Фибоначчи, выведите число -1.
 # Input: 5
 # Output: 6
-'''
+
 number_a = int(input("Enter a number: "))
 
 fib_number, fib_number1 = 0, 1
-counter = 2
+counter = 1
 
 while fib_number + fib_number1 < number_a:
     fib_number, fib_number1 = fib_number1, fib_number + fib_number1
@@ -23,11 +23,11 @@ elif fib_number + fib_number1 == number_a:
     print(counter + 1)
 else:
     print(-1)
-'''
+
 
 number = int(input("Введите число А: "))
 
-count = 3
+count = 2
 temp1, temp2 = 0, 1
 
 
